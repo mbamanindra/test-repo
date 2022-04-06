@@ -1,13 +1,3 @@
-terraform {
-  # Can be removed when bug is resolved: https://github.com/hashicorp/terraform-provider-aws/issues/23110
-  required_providers {
-    aws = {
-      source  = "hashicorp/aws"
-      version = "~> 3.0"
-    }
-  }
-}
-
 provider "aws" {
  # access_key = "AKIAR7W27TQGSX5HNEGT"
  # secret_key = "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"
